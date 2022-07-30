@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         countryCodePicker.setCountryForNameCode("India");
         country=countryCodePicker.getSelectedCountryName();
-        Log.e("Country" , country);
+
         countryCodePicker.setOnCountryChangeListener(new CountryCodePicker.OnCountryChangeListener() {
             @Override
             public void onCountrySelected() {
